@@ -1,0 +1,7 @@
+Disable Git SSL verification in the server hosting FishEye/Crucible with the following commands:
+
+git config --global http.sslVerify false
+
+-------------------------------
+git -c http.sslVerify=false clone https://example.com/path/to/git
+-------------------------------
